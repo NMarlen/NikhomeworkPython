@@ -1,5 +1,14 @@
 def print_num(num):
-    print(num, end="")  # печатаем без переноса строки
+    print(num, end="")   
 
-for digit in "88005553535":
-    print_num(digit)
+print_num(8)
+print_num(8)
+print_num(0)
+print_num(0)
+print_num(5)
+print_num(5)
+print_num(5)
+print_num(3)
+print_num(5)
+print_num(3)
+print_num(5)
