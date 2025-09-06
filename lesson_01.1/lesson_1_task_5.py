@@ -1,7 +1,6 @@
 def print_num(num):
     print(num, end="")
 
-
 print_num(8)
 print_num(8)
 print_num(0)
