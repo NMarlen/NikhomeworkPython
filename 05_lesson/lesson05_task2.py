@@ -14,8 +14,7 @@ driver.get("http://uitestingplayground.com/dynamicid")
 time.sleep(1)
 
 
-button = driver.find_element
-(By.XPATH, "//button[contains(@class, 'btn-primary')]")
+button = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-primary')]")
 
 button.click()
 
